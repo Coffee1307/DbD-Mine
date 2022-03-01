@@ -1,0 +1,29 @@
+{
+    "type": "origins:active_self",
+    "name": "Teste2",
+    "description": "teste2.1",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+                {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 600,
+                    "amplifier": 1,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            }
+        ]
+    },
+    "cooldown": 2400,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}
