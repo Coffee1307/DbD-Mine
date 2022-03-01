@@ -1,0 +1,39 @@
+{
+	"type": "origins:multiple",
+	"name": "Macabre Aura",
+	"description": "Come Closer There's Nothing to be Scared Of.",
+	"invisbility": {
+		"type": "origins:model_color",
+		"alpha": 0.0,
+		"condition": {
+			"type": "origins:sneaking",
+			"inverted": false
+		}
+	},
+	"particles": {
+		"type": "origins:particle",
+    	"particle": "minecraft:soul",
+    	"frequency": 4,
+		"condition": {
+			"type": "origins:sneaking",
+			"inverted": false
+		}
+	},
+	"particles2": {
+		"type": "origins:particle",
+    	"particle": "minecraft:smoke",
+    	"frequency": 2,
+		"condition": {
+			"type": "origins:sneaking",
+			"inverted": false
+		}
+	},
+	"cooldown": 2400,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

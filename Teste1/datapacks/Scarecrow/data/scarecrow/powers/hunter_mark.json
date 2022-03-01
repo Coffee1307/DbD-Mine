@@ -1,0 +1,16 @@
+{
+    "type": "origins:conditioned_attribute",
+    "name": "Hunter's Burden",
+	"description": "They cannot run. So do you",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -1,
+        "name": "Increased sprinting speed"
+    },
+    "tick_rate": 1,
+    "condition": {
+        "type": "origins:sprinting",
+        "inverted": false
+    }
+}

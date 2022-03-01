@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"scarecrow:hunter_mark",
+		"scarecrow:macabre_aura",
+		"scarecrow:enrage"
+	],
+	"icon": "minecraft:pumpkin",
+	"order": 1,
+	"impact": 0,
+	"name": "Scarecrow",
+	"description": "Don't be scared. It can't hurt you"
+}
+

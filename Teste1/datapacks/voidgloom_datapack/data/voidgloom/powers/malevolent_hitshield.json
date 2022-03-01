@@ -1,0 +1,19 @@
+        {
+            "type": "origins:self_action_when_hit",
+            "name": "Malevolent Hitshield",
+            "descripiton": "When  damaged by 2 hearts or more damage in a single hit, gain a Resistance II effect for 10 seconds.",
+            "entity_action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "amplifier": 1,
+                    "duration": 100
+                }
+            },
+            "damage_condition": {
+                "type": "origins:amount",
+                "comparison": ">=",
+                "compare_to": 4.0
+            },
+            "cooldown": 1200
+        }

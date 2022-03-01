@@ -1,0 +1,22 @@
+{
+   "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false,
+
+      "hud_render": {
+         "should_render": true,
+         "sprite_location": "custom:textures/gui/resource_bar.png",
+         "bar_index": 3
+      },
+      "cooldown": 250,
+      "type": "origins:active_self",
+      "entity_action": {
+         "type": "origins:execute_command",
+         "command": "tp @s ^ ^ ^10"
+      },
+      "name": "Teleportation",
+      "description": "Press G to teleport 5 blocks ahead of you",
+
+      "inverted": true
+   }
+}

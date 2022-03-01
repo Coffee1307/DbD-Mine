@@ -1,0 +1,21 @@
+{
+    "type": "origins:active_self",
+    "name": "Teste1",
+    "description": "teste1.1",
+    "entity_action": {
+                "type": "origins:model_color",
+                "alpha": 0.0,
+                "condition": {
+                    "type": "origins:sneaking",
+                    "inverted": false
+                }
+            },
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.sneak",
+        "continuous": false
+    }
+}

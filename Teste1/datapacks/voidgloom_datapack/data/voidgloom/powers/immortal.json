@@ -1,0 +1,33 @@
+{
+    "type": "origins:prevent_death",
+    "name": "Immortal",
+    "description": "You will not die, but everything has a price...",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:clear_effect"
+            },
+            {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:regeneration",
+                        "amplifier": 2,
+                        "duration": 900
+                    },
+                    {
+                        "effect": "minecraft:resistance",
+                        "amplifier": 3,
+                        "duration": 100
+                    },
+                    {
+                        "effect": "minecraft:withering",
+                        "amplifier": 1,
+                        "duration": 1200
+                    }
+                ]
+            }
+        ]
+    }
+}

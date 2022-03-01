@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "voidgloom:malevolent_hitshield",
+        "voidgloom:immortal",
+        "voidgloom:feel_the_emptyness",
+        "voidgloom:teleportation"
+    ],
+    "icon": "minecraft:ender_eye",
+    "order": 10,
+    "impact": 3,
+    "name": "Dark Seraphim",
+    "description": "Came from the void to haunt those on the surface, he is the dark flame."
+}
